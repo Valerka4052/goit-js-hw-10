@@ -30,7 +30,7 @@ function searchCoutries(e) {
                 Notiflix.Notify.failure("Oops, there is no country with that name");
             };
         })
-        .catch(err => console.log(err));
+        .catch(console.log);
 };
 
 function makeCountriesList(country) {
